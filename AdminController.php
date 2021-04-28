@@ -26,7 +26,9 @@ class AdminController extends Controller
      */
     public function create()
     {
-        //
+        $student = DB::select('select * from students');
+        return redirect->view('admin_dashboard');
+        
     }
 
     /**
