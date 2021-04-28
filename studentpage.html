@@ -1,33 +1,196 @@
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Student homepage</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>    <style>
+
+            
+    :root {
+--jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+padding-top: var(--jumbotron-padding-y);
+padding-bottom: var(--jumbotron-padding-y);
+margin-bottom: 0;
+background-color: #fff;
+}
+@media (min-width: 768px) {
+.jumbotron {
+padding-top: calc(var(--jumbotron-padding-y) * 2);
+padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+}
+}
+
+.jumbotron p:last-child {
+margin-bottom: 0;
+}
+
+.jumbotron-heading {
+font-weight: 300;
+}
+
+.jumbotron .container {
+max-width: 40rem;
+}
+
+footer {
+padding-top: 3rem;
+padding-bottom: 3rem;
+}
+
+footer p {
+margin-bottom: .25rem;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+    </style>
+
 </head>
 <body>
+    
 
-<div class="container">
-</div>
+        <div> <nav class="navbar navbar-expand-lg bg-primary navbar-light ">
 
-<nav class="navbar navbar-expand-sm bg-info navbar-light">
-  <ul class="navbar-nav">
-    <li class="nav-item ">
-      <a class="nav-link" href="#">Home</a>
+    
+      
+
+<div class="container-fluid" >
+   
+
+    
+    
+    
+
+
+  <ul class="navbar-nav navbar-collapse ">
+    <li class="nav-itemn  ">
+      <a class="nav-link " href="#">Home</a>
     </li>
     <li class="nav-item active">
       <a class="nav-link" href="#">My Booking</a>
     </li>
-    <li class="nav-item active navbar-right">
+    <li class="nav-item active">
       <a class="nav-link" href="#">Name</a>
     </li>
     <li class="nav-item"></li>
     <a class="nav-link" href="#">logout</a>
-    </ul>
-    </nav>
+    </ul><form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-success" type="submit">Search</button>
+      </form>
+
+    
+    
+    
+    </div></nav>
+    </div>
+    
+    
+
+
+<main role="main">
+
+  <section class="jumbotron text-center">
+    <div class="container">
+      <h1 class="jumbotron-heading">Available Rooms</h1>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card mb-3 box-shadow">
+            <img class="card-img-top" src="image/student.png" alt="Room 1" style="height: 20%;width=20%;">
+            <div class="card-body">
+              <p class="card-text"> 
+              Great for study: spacious, updated 2 bedroom, 1 bathroom room with study table.
+               Close to nightlife with private backyard. $200.00/mo, $100.00 move-in fee.
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Book Now</button>
+                  
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3" style="margin-left:5%;">
+          <div class="card mb-3 box-shadow">
+            <img class="card-img-top" src="image/room.png" alt="Room 2" style="height: 20%;width=20%;">
+            <div class="card-body">
+              <p class="card-text">
+              Great for entertaining: spacious, updated 2 bedroom, 1 bathroom room with study table.
+               Close to nightlife with private backyard. $200.00/mo, $100.00 move-in fee.
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Book Now</button>
+                 
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3" style="margin-left:5%;">
+          <div class="card mb-3 box-shadow">
+            <img class="card-img-top" src="image/room.png" alt="Room 2" style="height: 20%;width=20%;">
+            <div class="card-body">
+              <p class="card-text">
+              Great for entertaining: spacious, updated 2 bedroom, 1 bathroom room with study table.
+               Close to nightlife with private backyard. $200.00/mo, $100.00 move-in fee.
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Book Now</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3" >
+          <div class="card mb-3 box-shadow">
+            <img class="card-img-top" src="room.jpg" alt="Room 2" style="height: 20%;width=20%;">
+            <div class="card-body">
+              <p class="card-text">
+              Great for entertaining: spacious, updated 2 bedroom, 1 bathroom room with study table.
+               Close to nightlife with private backyard. $200.00/mo, $100.00 move-in fee.
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Book Now</button>
+                  
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="text-muted">
+  <div class="container">
+    <p class="float-right">
+      <a href="#">Back to top</a>
+    </p>
+  </div>
+</footer>
+
+    
 
 
 
